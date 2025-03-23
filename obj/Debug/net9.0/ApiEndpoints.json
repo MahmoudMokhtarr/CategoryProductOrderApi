@@ -1,0 +1,260 @@
+[
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.CategoryController",
+    "Method": "Create",
+    "RelativePath": "api/Category/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDto",
+        "Type": "CategoryProductOrderApi.Dtos.CategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Category/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/Category/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryDto",
+        "Type": "CategoryProductOrderApi.Dtos.CategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.OrderController",
+    "Method": "Create",
+    "RelativePath": "api/Order/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDto",
+        "Type": "CategoryProductOrderApi.Dtos.OrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.OrderController",
+    "Method": "Delete",
+    "RelativePath": "api/Order/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.OrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/Order/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.OrderController",
+    "Method": "GetById",
+    "RelativePath": "api/Order/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.OrderController",
+    "Method": "Update",
+    "RelativePath": "api/Order/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderDto",
+        "Type": "CategoryProductOrderApi.Dtos.OrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/Product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "CategoryProductOrderApi.Dtos.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/Product/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productDto",
+        "Type": "CategoryProductOrderApi.Dtos.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CategoryProductOrderApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CategoryProductOrderApi.WeatherForecast, CategoryProductOrderApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
